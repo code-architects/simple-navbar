@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: rgb(255, 255, 255);
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+	background: rgb(0, 236, 59);
+}
+.nav {
+	display: flex;
+	width: 80%;
+	height: auto;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+}
+.logo {
+	font-size: 2em;
+}
+.navlinks {
+	list-style: none;
+}
+.navlinks li {
+	display: inline-block;
+}
+.navlinks li a {
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.15s;
+	padding: 20px;
+	cursor: pointer;
+}
+.navlinks li a:hover {
+	background: rgb(0, 124, 66);
+	color: #fff;
+}
