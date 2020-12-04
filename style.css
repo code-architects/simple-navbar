@@ -4,11 +4,11 @@
 	box-sizing: border-box;
 }
 body {
-	background: rgb(255, 255, 255);
+	background: rgb(240, 240, 240);
 	font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-	background: rgb(0, 236, 59);
+	background: rgb(255, 0, 106);
 }
 .nav {
 	display: flex;
@@ -19,6 +19,7 @@ body {
 	margin: auto;
 }
 .logo {
+	color: #fff;
 	font-size: 2em;
 }
 .navlinks {
@@ -32,9 +33,10 @@ body {
 	text-decoration: none;
 	transition: 0.15s;
 	padding: 20px;
+	color: #fff;
 	cursor: pointer;
 }
 .navlinks li a:hover {
-	background: rgb(0, 124, 66);
+	background: rgb(214, 0, 54);
 	color: #fff;
 }
